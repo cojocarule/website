@@ -1,0 +1,282 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TODO change og image -->
+<!--     <meta property="og:image" content="http://imgur.com/a/qtFfN">
+    <meta property="og:title" content="Jess Design Tan" /> -->
+    <title>cojocarule.go.ro - weather</title>
+
+    <!-- own style -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/weather.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="icon" href="images/fav_AC.png" type="image/x-icon">
+    
+    <script src="js/wow.js"></script>
+    
+    <script>new WOW().init();</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135552925-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135552925-1');
+    </script>-->
+  </head>
+    <body class="weather portfolio">
+      <nav>
+        <div class="container">
+          <a class="logo" href="index.html">
+            adrian<span class="lite">cojocaru</span>
+          </a>
+          <div class="links">
+            <a href="images/cv_cojocaru_adrian_en_1.0.pdf" target="_blank">resume</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header">
+        <div class="content">
+          <div class="text wow fadeInLeft">
+            <div class="title">
+              <img src="images/weather_logo.png" height="200px;">
+            </div>
+            <div class="desc">
+              Find the weather across the world
+            </div>
+          </div>
+          <div class="image wow fadeInRight">
+            <img src="images/weather/header.jpg" class="img-responsive">
+          </div>
+        </div>
+        <div class="bottom-bg"></div>
+      </div> <!--./end of header -->
+
+      <section class="light-blue-bg flow">
+        <div class="content wow fadeInUp">
+
+          <section class="top-banner">
+            <div class="container">
+              <h1 class="heading">Search for a place to find out how's the weather there.</h1>
+              <form >
+                <input type="text" placeholder="Search for a city" autofocus>
+                <button type="submit">SUBMIT</button>
+                <span class="msg"></span>
+              </form>
+            </div>
+          </section>
+
+          <section class="ajax-section">
+            <div class="container">
+              <ul class="cities"></ul>
+            </div>
+          </section>
+<!--           <footer class="page-footer">
+            <div class="container">
+              <small>Made with <span>❤</span> by <a href="http://cojocarule.go.ro" target="_blank">Adrian Cojocaru</a>
+              </small>
+            </div>
+          </footer> -->
+
+        </div>
+      </section>
+
+<!--       <div class="full-image">
+        <img src="images/timezone/sun_footer.svg" class="img-responsive">
+      </div>
+
+      <section class="blue-bg solution">
+        <div class="content wow fadeInUp">
+          <div class="section-title">solution</div>
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="images/timezone/switching.png">
+              <p class="lead">Eliminate Switching</p>
+              <p>
+                To make this process truly seamless, we have to eliminate the need to switch windows to perform another functionality.
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <img src="images/timezone/time.png">
+              <p class="lead">Built-in time converter</p>
+              <p>
+                The root cause of switching windows is because the user is unfamiliar with time zone difference and thus have to search for it on Google.
+                <br/><br/>
+                With a built-in time converter, users can instantly tell if the timing is suitable for team mates from different
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="full-image">
+        <img src="images/timezone/moon_footer.svg" class="img-responsive">
+      </div>
+
+      <section class="design-process">
+        <div class="content wow fadeInUp">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="section-title">design process</div>
+              <p>
+                An interface is usually filled with lots of information. It is easy to lose track of the required elements needed for each screen. For efficiency and planning, my strategy before starting to design an User Interface is to always list out what is needed.
+              </p>
+              <p>
+                  This helps me to fulfilll the requirements of the screen while at the same time also helps to organize my thoughts and design effectively.
+              </p>
+              <p>
+                This is broken down into 3 categories namely, <span class="blue-color">Elements</span>, <span class="blue-color">States</span> and <span class="blue-color">Actions</span>. In the next section I will explain in detail what each section contains and means.
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <img src="images/timezone/process.jpg" class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="light-blue-bg elements">
+        <div class="content wow fadeInUp">
+          <div class="section-title">Elements</div>
+          <div class="row">
+            <div class="col-sm-6">
+                <p>
+                  Elements are the building block of information. Things that falls under this categories are labels, names, titles, photos and etc.
+                </p>
+                <p>
+                  Elements can be broken down into specific feature for better organisation.
+                </p>
+                <p>
+                  Lastly, elements that are important are prioritised to be given a heavier weight. These are in bold.
+                </p>
+            </div>
+            <div class="col-sm-3">
+              <ul>
+                <li class="title">General</li>
+                <li>Page title</li>
+                <li>Sender’s Photo</li>
+                <li>Sender’s Name</li>
+                <li>Sender’s role (organiser)</li>
+                <li>Date of meeting</li>
+                <li>Time of meeting</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <ul>
+                <li class="title">Converter</li>
+                <li>Every User’s Photo</li>
+                <li>Every User’s Name</li>
+                <li>Every Time zone name</li>
+                <li>Time, every hour</li>
+                <li>No. of people per time zone</li>
+                <li>Meetings block</li>
+                <li>Availability of user at time slot</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="states">
+        <div class="content wow fadeInUp">
+          <div class="section-title">States</div>
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="lead">Meeting Blocks</p>
+              <img src="images/timezone/meeting_blocks.jpg" width="70%" class="img-responsive">
+            </div>
+            <div class="col-sm-6">
+              <p class="lead">Active Meeting Periods</p>
+              <img src="images/timezone/night_view.jpg" class="img-responsive meeting-block">
+              <ul>
+                <li>Font weight and color when period is active</li>
+                <li>Night view of period background to quickly indicate night tine.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="light-blue-bg actions">
+        <div class="content wow fadeInUp">
+          <div class="section-title">actions</div>
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="lead">Change Dates & Time</p>
+              <img src="images/timezone/dates.jpg" width="70%" class="shadow img-responsive">
+            </div>
+            <div class="col-sm-6">
+              <p class="lead">Add Participants</p>
+              <img src="images/timezone/add_participants.jpg" width="50%" class="img-responsive shadow">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="nightview">
+        <div class="content wow fadeInUp">
+          <div class="section-title">Night View</div>
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="images/timezone/nightview_day.jpg" class="img-responsive">
+            </div>
+            <div class="col-sm-6">
+              <img src="images/timezone/nightview_night.jpg" class="img-responsive">
+            </div>
+            <div class="col-sm-12">
+              <p>
+                In my initial design, each period block are consistent and users have to look at the numerical time to make judgement. The labels for 9am and 9pm looks vastly similar but they represent day and night. As most meetings happen in the day, to help users quickly visualize the status of each timezone at a glance, I added a night view to show that it is night time so the organiser can make a quick judgement if they still want to hold the meeting at night.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="inspiration">
+        <img src="images/timezone/stars.png" class="img-responsive stars">
+        <img src="images/timezone/stars1.png" class="img-responsive stars">
+        <div class="content wow fadeInUp">
+          <div class="section-title">Inspiration</div>
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="lead">Moonphase Watch</p>
+              <p>In the watchmaking world, the moonphase indicator and its many complexities underneath is considered to be a mark of horogical advancement. </p>
+              <p>It is artistically represented on a watch dial with the main purpose of evoking emotion that comes from the wakefulness of the day and consciousness of glimmering night skies.</p>
+            </div>
+            <div class="col-sm-6">
+              <img src="images/timezone/inspiration.jpg" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="lead">Application</p>
+              <p>While impractical in the watchmaking world from a cost/complicaton perspective, I took inspiration of its visual intricasies and gave it a practical use of providing users with a clear indicator of night time that is intuitive at first glance, while preserving its original purpose of being timelessly romantic.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conclusion">
+        <div class="content wow fadeInUp">
+          <div class="section-title">Conclusion</div>
+          <img src="images/timezone/desktop.jpg" class="img-responsive">
+          <p>Schedulling should not be difficult. With this implementation, it will increase the productivity of people and also reduce the room for any conversion errors. </p>
+        </div>
+      </section> -->
+
+
+
+      <section class="green-bg logo-footer">
+        <div class="wow fadeInUp">
+          <p>next project</p>
+          <a href="sharession.html" class="wow pulse"><img src="images/sharession_logo.png"></a>
+        </div>
+      </section>
+      <script src="js/weather.js"></script>
+    </body>
+</html>

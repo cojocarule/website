@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title of the document</title>
+
+</head>
+
+<body>
+  <h1>Cojocaru's Website</h1>
+  <p>This is my Web playground.</p>
+  <p>I use this to demo my work</p>
+  <p>Hosted on a RaspberryPi</p>
+  <ul>
+    <li>
+      <a href="#">Home</a>
+      <a href="#">Portfolio</a>
+      <a href="#">About me</a>
+      <a href="#">Contact</a>
+    </li>
+  </ul>
+</body>
+
+</html>
