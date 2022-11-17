@@ -1,0 +1,25 @@
+-html  
+   head
+      title= title
+   body
+   h1=title
+    
+//-       table(border='1')
+//-         tr
+//-           each image in images
+//-             td  
+//-               img(src=image width=300)
+//-var list = [1,2,3,4,5,6,7];
+- let listChunks = [];
+
+- for(var i = 0; i < Math.ceil(images.length / 3); i++)
+  - listChunks.push(images.slice(3 * i, 3 * (i + 1)))
+
+table
+    tbody
+      each chunk in listChunks
+        tr
+          each val in chunk
+            td 
+              img(src=val width=300) 
+            
